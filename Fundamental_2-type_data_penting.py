@@ -25,8 +25,8 @@ for x in bil:
 print('\nMenyebutkan semua bilangan dengan for dan range:')
 # x (variabel setelah for) menjadi index items dalam list
 for x in range(0, len(bil)):
-    print(f'Bilangan ke-{x+1} adalah {bil[x]}')
+    print(f'{x+1}. Bilangan ke-{x+1} adalah {bil[x]}')
 
 print('\nUrutan dibalik:')
 for x in range(len(bil)-1, -1, -1):
-    print(f'Bilangan ke-{x+1} adalah {bil[x]}')
+    print(f'{len(bil)-x}. Bilangan ke-{x+1} adalah {bil[x]}')
