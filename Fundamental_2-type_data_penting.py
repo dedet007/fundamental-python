@@ -27,6 +27,6 @@ print('\nMenyebutkan semua bilangan dengan for dan range:')
 for x in range(0, len(bil)):
     print(f'{x+1}. Bilangan ke-{x+1} adalah {bil[x]}')
 
-print('\nUrutan dibalik:')
+print('\nUrutan dibalik (dengan for in range):')
 for x in range(len(bil)-1, -1, -1):
     print(f'{len(bil)-x}. Bilangan ke-{x+1} adalah {bil[x]}')
